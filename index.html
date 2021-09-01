@@ -3,18 +3,19 @@
     <head>
         <meta charset="UTF-8">
         <title>Omar Jandali</title>
+        <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body>
         <main>
             <section id="heading-bar-section">
-                <img id="logo" src="" alt="Omar Jandali Logo">
+                <img id="logo" src="./OmarJandaliWebsiteLogo.png" alt="Omar Jandali Logo">
                 <nav id="nav-bar">
-                    <ul>
-                        <li class="nav-tab">ABOUT</li>
-                        <li class="nav-tab">SKILLS</li>
-                        <li class="nav-tab">EXPERIENCE</li>
-                        <li class="nav-tab">PROJECTS</li>
-                        <li class="nav-tab">CONTACT</li>
+                    <ul id="nav-list">
+                        <li class="nav-tab"><a id="nav-link" href="#about-me-section">ABOUT</a></li>
+                        <li class="nav-tab"><a id="nav-link" href="#skills-section">SKILLS</a></li>
+                        <li class="nav-tab"><a id="nav-link" href="#experience-section">EXPERIENCE</a></li>
+                        <li class="nav-tab"><a id="nav-link" href="#project-section">PROJECT</a></li>
+                        <li class="nav-tab"><a id="nav-link" href="#contact-section">CONTACT</a></li>
                     </ul>
                 </nav>
             </section>
@@ -73,7 +74,7 @@
                     <li class="skill-item">Postgresql</li>
                 </ul>
             </section>
-            <section>
+            <section id="experience-section">
                 <h2 class="section-header">WHERE I HAVE WORKED</h2>
                 <ul>
                     <li class="exp-item"><h3>OMNACORE</h3></li>
@@ -124,7 +125,7 @@
                     </ul>
                 </article>
             </section>
-            <section>
+            <section id="project-section">
                 <h2 class="section-header">FEATURED APPLICATIONS</h2>
                 <article class="project-article">
                     <p class="feature-project">Featured Project</p>
@@ -172,7 +173,7 @@
                     <!--Insert link to project-->
                 </article>
             </section>
-            <section>
+            <section id="contact-section">
                 <h2 class="section-header">GET IN TOUCH WITH ME</h2>
                 <p id="contact-message">
                     Any questions or inquiries? Feel free to contact me by emailing me or filling out the form below and I will get back 
