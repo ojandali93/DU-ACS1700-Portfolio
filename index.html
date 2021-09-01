@@ -4,7 +4,9 @@
         <meta charset="UTF-8">
         <title>Omar Jandali</title>
         <link rel="stylesheet" href="stylesheet.css">
-    </head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">    </head>
     <body>
         <main>
             <section id="heading-bar-section">
@@ -20,19 +22,29 @@
                 </nav>
             </section>
             <section id="summary-section">
-                <p id="intro">Welcome, my name is</p>
-                <h1 id="name">OMAR JANDALI.</h1>
-                <h2 id="tagline">Your neighborhood software engineer.</h2>
-                <p id="intro-message">
-                    I am a software engineer with a specialty in back end web development 
-                    and currently pursuing a specialty in Deep Learning & Artificial Intelligence 
-                    in healthcare. Software engineering is my passion and it is something 
-                    that gets me excited every single morning.</p>
-                <p id="current-pursuit">
-                    With my pursuit of advancing my career into DL & AI, I am currently atending
-                    Dominican University Of California's ACS program with specialty in Data Science.
-                </p>
-                <button>Get In Touch</button>
+                <div id="intro">
+                    <p>Welcome, my name is</p>
+                </div>
+                <div id="i-am">
+                    <h1 id="name">OMAR JANDALI</h1>
+                    <h2 id="tagline">YOUR NEIGHBORHOOD SOFTWARE ENGINEER</h2>
+                </div>
+                <div id="who-am-i">
+                    <p id="intro-message" class="summary-text">
+                        I am a software engineer with a specialty in 
+                        <span class="key-summary">BACK END WEB DEVELOPMENT</span> 
+                        and currently pursuing a specialty in 
+                        <span class="key-summary">DEEP LEARNING & ARTIFICIAL INTELLIGENCE</span> 
+                        in healthcare. Software engineering is my passion and it is something 
+                        that gets me excited every single morning.</p>
+                    <p id="current-pursuit" class="summary-text">
+                        With my pursuit of advancing my career into DL & AI, I am currently atending
+                        Dominican University Of California ACS program with specialty in <span class="key-summary">DATA SCIENCE</span>.
+                    </p>
+                </div>
+                <div id="more-button">
+                    <a id="get-in-touch" href="#">GET IN TOUCH</a>
+                </div>
             </section>
             <section id="about-me-section">
                 <h2 class="section-header">ABOUT ME</h2>
