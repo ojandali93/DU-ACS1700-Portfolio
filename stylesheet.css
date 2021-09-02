@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #summary-section {
     margin-top: 410px;
-    margin-bottom: 450px;
+    margin-bottom: 438px;
     font-size: 16px;
     width: 70%;
 }
@@ -124,4 +124,63 @@ h1, h2, h3, h4, h5, h6 {
     padding: 16px;
     text-decoration: none;
     color: cyan;
+}
+
+.section-break {
+    background-color: cyan;
+    height: 2px;
+    width: 100%;
+}
+
+#about-me-section {
+    margin-left: 20%;
+    margin-top: 440px;
+    margin-bottom: 440px;
+    font-size: 16px;
+    width: 80%;
+}
+
+#about-me-header {
+    display: flex;
+    align-items: center;
+}
+
+#about-me-div-breaker {
+    height: 4px;
+    width: 30%;
+    background-color: white;
+    display: inline-block;
+}
+
+.section-header {
+    font-size: 56px;
+    display: inline-block;
+    padding-right: 30px;
+}
+
+#about-me-content {
+    font-size: 20px;
+    display: flex;
+}
+
+#about-me-container {
+    padding: 20px;
+    display: flex;
+}
+
+#profile-pic {
+    height: 350px;
+    border: 3px solid white;
+    border-radius: 10px;
+    z-index: 3;
+}
+
+#profile-pic-backup {
+    height: 350px;
+    width: 328px;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-left: -300px;
+    margin-top: 28px;
+    z-index: 2;
 }
