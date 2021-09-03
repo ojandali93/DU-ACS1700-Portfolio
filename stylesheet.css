@@ -287,3 +287,55 @@ h1, h2, h3, h4, h5, h6 {
 .left-align-experience {
     margin-left: 20%;;
 }
+
+.project-article {
+    margin-top: 35px;
+}
+
+.feature-project {
+    font-size: 18px;
+    display: inline-block;
+    padding: 8px;
+    background-color: grey;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+.right-align-project {
+    margin-left: 15%;
+}
+
+.right-project-featured {
+    margin-left: 76%;
+}
+
+.project-name {
+    font-size: 26px;;
+}
+
+.right-project-name {
+    margin-left: 70%;
+}
+
+.project-text {
+    width: 80%;
+    margin-left: 5%;
+}
+
+.right-project-text {
+    text-align: right;
+}
+
+.project-technologies {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.right-project-technologies {
+    margin-left: 45%;
+}
+
+.project-skill {
+    display: inline-block;
+    padding-right: 14px;
+}
