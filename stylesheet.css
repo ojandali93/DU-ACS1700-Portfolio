@@ -53,12 +53,24 @@ h1, h2, h3, h4, h5, h6 {
     color: cyan;
 }
 
-#summary-section {
+.sectional {
     margin-top: 410px;
     margin-bottom: 200px;
     font-size: 16px;
-    width: 60%;
+    width: 65%;
+}
+
+.left-section {
     margin-left: 15%;
+}
+
+.right-section {
+    margin-left: 20%;
+}
+
+.center-section {
+    width: 60%;
+    margin-left: 20%;
 }
 
 .key-summary{
@@ -135,11 +147,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #about-me-section {
-    margin-left: 25%;
-    margin-top: 300px;
-    margin-bottom: 310px;
-    font-size: 16px;
-    width: 70%;
+    margin-left: 20%;
 }
 
 .class-header {
@@ -185,14 +193,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: -300px;
     margin-top: 28px;
     z-index: 2;
-}
-
-#skills-section {
-    margin-left: 15%;
-    margin-top: 428px;
-    margin-bottom: 374px;
-    font-size: 16px;
-    width: 70%;
 }
 
 .skill-header {
