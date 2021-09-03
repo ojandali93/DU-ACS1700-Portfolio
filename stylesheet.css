@@ -266,3 +266,24 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 200px;
     text-align: center;
 }
+
+.experience-article {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    line-height: .7;
+    width: 80%;
+}
+
+.experience-role {
+    font-size: 24px
+}
+
+.experience-text {
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+.left-align-experience {
+    margin-left: 20%;;
+}
