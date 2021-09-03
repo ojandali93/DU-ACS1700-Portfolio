@@ -55,9 +55,10 @@ h1, h2, h3, h4, h5, h6 {
 
 #summary-section {
     margin-top: 410px;
-    margin-bottom: 438px;
+    margin-bottom: 200px;
     font-size: 16px;
-    width: 70%;
+    width: 60%;
+    margin-left: 15%;
 }
 
 .key-summary{
@@ -130,22 +131,23 @@ h1, h2, h3, h4, h5, h6 {
     background-color: cyan;
     height: 2px;
     width: 100%;
+    margin-top: -180px;
 }
 
 #about-me-section {
-    margin-left: 20%;
-    margin-top: 440px;
-    margin-bottom: 440px;
+    margin-left: 25%;
+    margin-top: 300px;
+    margin-bottom: 310px;
     font-size: 16px;
-    width: 80%;
+    width: 70%;
 }
 
-#about-me-header {
+.class-header {
     display: flex;
     align-items: center;
 }
 
-#about-me-div-breaker {
+.title-div-breaker {
     height: 4px;
     width: 30%;
     background-color: white;
@@ -183,4 +185,84 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: -300px;
     margin-top: 28px;
     z-index: 2;
+}
+
+#skills-section {
+    margin-left: 15%;
+    margin-top: 428px;
+    margin-bottom: 374px;
+    font-size: 16px;
+    width: 70%;
+}
+
+.skill-header {
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.frontend-skills-list {
+    font-size: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.backend-skills-list {
+    font-size: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: right;
+}
+
+.development-skills-list {
+    font-size: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#back-end-skills-header {
+    text-align: right;
+}
+
+.frontend-skill-item {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.backend-skill-item {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.development-skill-item {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.next-section {
+    width: 100%;
+    font-size: 32px;
+    text-align: center;
+}
+
+.arrow-down {
+    border: solid white;
+    border-width: 0 10px 10px 0;
+    padding: 35px;
+    display: inline-block;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-left: 47%;
+}
+
+.down-arrow {
+    margin-top: -120px;
+    font-size: 200px;
+    text-align: center;
 }
