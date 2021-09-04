@@ -13,15 +13,15 @@
                 <img id="logo" src="./OmarJandaliWebsiteLogo.png" alt="Omar Jandali Logo">
                 <nav id="nav-bar">
                     <ul id="nav-list">
-                        <li class="nav-tab"><a id="nav-link" href="#section-break-about">ABOUT</a></li>
-                        <li class="nav-tab"><a id="nav-link" href="#section-break-skills">SKILLS</a></li>
-                        <li class="nav-tab"><a id="nav-link" href="#section-break-experience">EXPERIENCE</a></li>
-                        <li class="nav-tab"><a id="nav-link" href="#project-section">PROJECT</a></li>
-                        <li class="nav-tab"><a id="nav-link" href="#contact-section">CONTACT</a></li>
+                        <li class="nav-tab"><a class="nav-link" href="#section-break-about">ABOUT</a></li>
+                        <li class="nav-tab"><a class="nav-link" href="#section-break-skills">SKILLS</a></li>
+                        <li class="nav-tab"><a class="nav-link" href="#section-break-experience">EXPERIENCE</a></li>
+                        <li class="nav-tab"><a class="nav-link" href="#section-break-applications">APPLICATIONS</a></li>
+                        <li class="nav-tab"><a class="nav-link" href="#section-break-contact">CONTACT</a></li>
                     </ul>
                 </nav>
             </section>
-            <section id="summary-section" class="sectional left-section">
+            <section id="summary-section" class="left-section">
                 <div id="intro">
                     <p>Welcome, my name is</p>
                 </div>
@@ -135,7 +135,7 @@
             </div>
             <div class="section-break" id="section-break-experience"></div>
             <section class="sectional right-section">
-                <div id="skills-header" class="class-header">
+                <div id="experience-header" class="class-header">
                     <h2 class="section-header">WHERE I'VE WORKED</h2>
                     <div class="title-div-breaker"></div>
                 </div>
@@ -187,9 +187,9 @@
                 <p class="next-section">APPLICATIONS</p>
                 <p class="down-arrow">	&#xFFEC;</p>
             </div>
-            <div class="section-break" id="section-break-skills"></div>
+            <div class="section-break" id="section-break-applications"></div>
             <section class="sectional left-section">
-                <div id="skills-header" class="class-header">
+                <div id="applications-header" class="class-header">
                     <h2 class="section-header">APPLICATIONS</h2>
                     <div class="title-div-breaker"></div>
                 </div>
@@ -249,36 +249,48 @@
                 <p class="next-section">CONTACT ME</p>
                 <p class="down-arrow">	&#xFFEC;</p>
             </div>
-            <div class="section-break" id="section-break-skills"></div>
-            <section class="sectional center-section">
-                <h2 class="section-header">GET IN TOUCH WITH ME</h2>
+            <div class="section-break" id="section-break-contact"></div>
+            <section class="sectional center-section contact-section">
+                <h2 class="section-header-contact">GET IN TOUCH WITH ME</h2>
                 <p id="contact-message">
                     Any questions or inquiries? Feel free to contact me by emailing me or filling out the form below and I will get back 
                     to you as soon as possible. You can also message me on my social accounts. Have a great day.
                 </p>
-                <form>
-                    <label for="fname">First name:</label><br>
-                    <input type="text" id="fname" name="fname"><br>
-                    <label for="lname">Last name:</label><br>
-                    <input type="text" id="lname" name="lname"><br>
-                    <label for="email">Email:</label><br>
-                    <input type="text" id="email" name="email"><br>
-                    <label for="message">Message:</label><br>
-                    <input type="text" id="message" name="message"><br>
-                    <input type="submit" id="submi">
+                <form id="contact-form">
+                    <label class="form-label">First name:</label><br>
+                    <input class="form-input" type="text" name="fname"><br>
+                    <label class="form-label">Last name:</label><br>
+                    <input class="form-input" type="text" name="lname"><br>
+                    <label class="form-label">Email:</label><br>
+                    <input class="form-input" type="text" name="email"><br>
+                    <label class="form-label">Message:</label><br>
+                    <input class="form-input" type="text" id="message" name="message"><br>
+                    <input type="submit" id="submit">
                 </form>
             </section>
 
-            <footer>
-                <p>Omar Jandali</p>
-                <p>omarjandali93@gmail.com</p>
-                <p>(951) 534-3666</p>
-                <p><a href=""><img id="ig-icon-footer" src="" alt="Instagram Logo"></a></p>
-                <p><a href=""><img id="twitter-icon-footer" src="" alt="Twitter Logo"></a></p>
-                <p><a href=""><img id="linkedin-icon-footer" src="" alt="LinkedIn Logo"></a></p>
-                <p><a href=""><img id="github-icon-footer" src="" alt="Github Logo"></a></p>
-                <p>Designed and built by Omar Jandali</p>
-                <p>Github: </p>
+            <footer class="footer-section">
+                <div id="left-footer">
+                    <div id="left-column" class="footer-column"></div>
+                    <div id="left-column-text">
+                        <p class="footer-text">Omar Jandali</p>
+                        <p class="footer-text">omarjandali93@gmail.com</p>
+                        <p class="footer-text">(951) 534-3666</p>
+                        <p class="footer-text">Sunnyvale, CA</p>
+                    </div>
+                </div>
+                <!-- <div  id="center-footer">
+                    <p>Designed and built by Omar Jandali</p>
+                </div> -->
+                <div  id="right-footer">
+                    <div id="right-column-text">
+                        <p><a href=""><img class="footer-icon" src="instagram-icon.png" alt="Instagram Logo"></a></p>
+                        <p><a href=""><img class="footer-icon" src="twitter-icon.png" alt="Twitter Logo"></a></p>
+                        <p><a href=""><img class="footer-icon" src="linkedin-icon.png" alt="LinkedIn Logo"></a></p>
+                        <p><a href=""><img class="footer-icon" src="slack-icon.png" alt="Slack Logo"></a></p>
+                    </div>
+                    <div id="left-column" class="footer-column"></div>
+                </div>
             </footer>
         </main>
     </body>

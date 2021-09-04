@@ -22,11 +22,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #logo {
-   height: 60px;
-   margin-top: 16px;
-   margin-left: 10px;
-   margin-right: 10px;
-   margin-bottom: 16px;
+    height: 60px;
+    margin-top: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 16px;
 }
 
 #nav-list {
@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 8px;
 }
 
-#nav-link {
+.nav-link {
     text-decoration: none;
     color: white;
 }
@@ -53,19 +53,26 @@ h1, h2, h3, h4, h5, h6 {
     color: cyan;
 }
 
-.sectional {
+#summary-section {
     margin-top: 410px;
     margin-bottom: 200px;
     font-size: 16px;
-    width: 65%;
+    width: 66%;
+}
+
+.sectional {
+    margin-top: 300px;
+    margin-bottom: 300px;
+    font-size: 16px;
+    width: 66%;
 }
 
 .left-section {
-    margin-left: 15%;
+    margin-left: 17%;
 }
 
 .right-section {
-    margin-left: 20%;
+    margin-left: 17%;
 }
 
 .center-section {
@@ -113,6 +120,7 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
     margin: 0px;
     margin-bottom: 20px;
+    line-height: 1.5;
 }
 
 #get-in-touch {
@@ -140,7 +148,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-break {
-    background-color: cyan;
     height: 2px;
     width: 100%;
     margin-top: -180px;
@@ -148,6 +155,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #about-me-section {
     margin-left: 20%;
+    line-height: 1.5;
 }
 
 .class-header {
@@ -320,6 +328,8 @@ h1, h2, h3, h4, h5, h6 {
 .project-text {
     width: 80%;
     margin-left: 5%;
+    line-height: 1.5;
+    font-size: 20px;
 }
 
 .right-project-text {
@@ -338,4 +348,90 @@ h1, h2, h3, h4, h5, h6 {
 .project-skill {
     display: inline-block;
     padding-right: 14px;
+}
+
+.contact-section {
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.section-header-contact {
+    font-size: 56px;
+    width: 100%;
+    text-align: center;
+}
+
+#contact-message {
+    text-align: center;
+    line-height: 1.5;
+}
+
+#contact-form {
+    margin-top: 60px;
+    text-align: center;
+}
+
+#submit {
+    margin-top: 20px;
+    border: 3px solid white;
+    border-radius: 8px;
+    margin-top: 40px;
+    display: inline-block;
+    padding: 16px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 30px;
+    background-color: black;
+}
+
+#submit:hover {
+    margin-top: 20px;
+    border: 3px solid cyan;
+    border-radius: 8px;
+    margin-top: 40px;
+    display: inline-block;
+    padding: 16px;
+    text-decoration: none;
+    color: cyan;
+    margin-bottom: 30px;
+    background-color: black;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#left-footer {
+    display: flex;
+}
+
+#right-footer {
+    display: flex;
+}
+
+.footer-column {
+    width: 12px;
+    height: 100%;
+    background-color: white;
+}
+
+#left-column-text {
+    margin-left: 30px;
+}
+
+#right-column-text {
+    margin-right: 30px;
+}
+
+.footer-text {
+    font-size: 18px;
+    padding-top: 2px;
+}
+
+.footer-icon {
+    height: 24px;
 }
